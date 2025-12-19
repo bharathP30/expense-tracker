@@ -2,6 +2,9 @@
 
 A simple React + Vite application that lets users moniter their expenses. Users can add expenses with a description, amount, and category (Food, Transport, or Fun), filter the list by category, delete individual entries, and view the total amount spent. Built with modern React hooks and styled using Tailwind CSS for a clean, gradient-based UI.
 
+## Live 
+Vercel : https://expense-tracker-rosy-mu.vercel.app/
+
 ## ✨ Features
 -- Add Expenses: Input description, amount (supports decimals), and select a category.
 -- Filter by Category: View all expenses or filter by Food, Transport, or Fun.
