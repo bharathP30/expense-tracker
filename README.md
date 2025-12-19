@@ -67,7 +67,8 @@ Click the ✕ button next to any expense to remove it.
 
 **Total Spent:**
 Displayed at the bottom, updating automatically.
---- 
+
+## Contribution
 Feel free to fork the repo, submit issues, or pull requests for improvements like localStorage persistence or additional categories.
 
 ## License
