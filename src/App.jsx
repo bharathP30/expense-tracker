@@ -148,7 +148,7 @@ const total = expenses.reduce((sum, expense) => sum + parseFloat(expense.amount)
         </div>
 
       <div className="w-full p-4 md:max-w-4xl md:mx-auto md:p-8 mt-4 bg-gradient-to-br from-gray-800 to-gray-700 text-white rounded-xl font-sans">
-          <div className="flex justify-between items-center">
+          <div className="flex justify-end gap-4 items-center">
             <span className="text-xl font-semibold md:text-2xl md:font-bold">Total Spent :</span>
             <span className="text-xl font-semibold text-green-500 md:text-2xl md:font-bold">Rs {total.toFixed(2)}</span>
           </div>
