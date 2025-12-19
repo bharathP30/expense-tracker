@@ -39,7 +39,7 @@ const total = expenses.reduce((sum, expense) => sum + parseFloat(expense.amount)
           <div className='w-full p-4 md:mx-auto md:max-w-4xl md:p-8 md:text-xl text-white rounded-lg font-sans bg-gradient-to-br from-gray-900 to-gray-600'>
             <label htmlFor="description"><strong>Description : </strong>
             <input required
-                   className='w-full rounded-lg p-2 m-2 border-none font-sans text-black' 
+                   className='w-full rounded-lg p-2 m-2 border-none font-sans text-black mx-auto' 
                    onChange={(e) => setDesc(e.target.value)} 
                    type="text" 
                    id="description" 
